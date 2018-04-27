@@ -4,13 +4,19 @@
              xmlns:local="clr-namespace:NEASBillader"
              x:Class="NEASBillader.MainPage">
 
+    <StackLayout>
+        <Label Text="Hello World!"
+            FontSize="50"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
 
+        <Frame OutlineColor="Accent"
+            HasShadow="True"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand">
+            <Label Text="Let there be app" />
+        </Frame>
+    </StackLayout>
 
-    <Label Text="Hello World!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center"
-           FontSize="25">
-
-    </Label>
 
 </ContentPage>
