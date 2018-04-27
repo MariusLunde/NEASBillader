@@ -6,7 +6,7 @@
 
 
 
-    <Label Text="Hello! World And Talemakers"
+    <Label Text="Hello World!"
            VerticalOptions="Center"
            HorizontalOptions="Center"
            FontSize="25">
