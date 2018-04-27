@@ -4,8 +4,13 @@
              xmlns:local="clr-namespace:NEASBillader"
              x:Class="NEASBillader.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+
+
+    <Label Text="Hello! World And Talemakers"
+           VerticalOptions="Center"
+           HorizontalOptions="Center"
+           FontSize="25">
+
+    </Label>
 
 </ContentPage>
