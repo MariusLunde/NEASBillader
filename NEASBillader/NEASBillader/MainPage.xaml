@@ -5,18 +5,21 @@
              x:Class="NEASBillader.MainPage">
 
     <StackLayout>
-        <Label Text="NEAS El-Bil Lader "
+        <Label Text="NEAS El-Bil Lader"
             FontSize="30"
             FontAttributes="Bold"
                Margin="20"
             HorizontalOptions="Center" />
 
-        <Frame OutlineColor="Accent"
-            HasShadow="True"
-            HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand">
-            <Label Text="Ta testen" />
-        </Frame>
+        <ScrollView     
+            VerticalOptions="FillAndExpand"
+            Margin="10">
+            <Label Text="">
+                
+            </Label>
+            
+            
+        </ScrollView>
     </StackLayout>
 
 
