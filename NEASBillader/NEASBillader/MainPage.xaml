@@ -5,16 +5,17 @@
              x:Class="NEASBillader.MainPage">
 
     <StackLayout>
-        <Label Text="Hello World!"
-            FontSize="50"
+        <Label Text="NEAS El-Bil Lader "
+            FontSize="30"
             FontAttributes="Bold"
+               Margin="20"
             HorizontalOptions="Center" />
 
         <Frame OutlineColor="Accent"
             HasShadow="True"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand">
-            <Label Text="Let there be app" />
+            <Label Text="Ta testen" />
         </Frame>
     </StackLayout>
 
